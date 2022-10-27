@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background: url("./facebook-social-network-marketplace-featured.jpg") no-repeat center/cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image a img {
+    width: 500px;
+    transition: .3s;
+}
+
+.image a img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
